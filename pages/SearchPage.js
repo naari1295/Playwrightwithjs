@@ -35,5 +35,4 @@ class SearchPage extends BasePage {
     }
 
 }
-
 module.exports = SearchPage;
