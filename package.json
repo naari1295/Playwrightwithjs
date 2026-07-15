@@ -1,0 +1,26 @@
+
+{
+  "name": "playwrightframework",
+  "version": "1.0.0",
+  "description": "Playwright Automation Framework for Zigzag.lk",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "headed": "playwright test --headed",
+    "debug": "playwright test --debug",
+    "smoke": "playwright test --grep @smoke",
+    "regression": "playwright test --grep @regression",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "javascript",
+    "qa"
+  ],
+  "author": "Narayanamma",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2"
+  }
+}
